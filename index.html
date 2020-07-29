@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Top 10 restaurant search params editor</title>
+    <script src="https://unpkg.com/contentful-ui-extensions-sdk@3"></script>
+  </head>
+  <body>
+    <div id="content"></div>
+    <script type="text/javascript">
+      window.contentfulExtension.init(function (extension) {
+        var value = extension.field.getValue()
+        extension.field.setValue("Hello world!")
+      })
+    </script>
+  </body>
+</html>
