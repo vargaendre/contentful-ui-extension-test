@@ -1,0 +1,8 @@
+{
+  "id": "top10-parameters",
+  "name": "Top 10 search parameters",
+  "srcdoc": "./index.html",
+  "fieldTypes": [
+    "Object"
+  ]
+}
